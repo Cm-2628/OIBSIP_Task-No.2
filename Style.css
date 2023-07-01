@@ -1,0 +1,211 @@
+*{
+    margin: 0px;
+    padding: 0px;
+    box-sizing: border-box;
+}
+
+body{
+    font-family: Times, serif;
+    color: white;
+    background-color: rgb(97, 97, 99);
+}
+
+.container{
+    max-width: 90rem;
+    margin: 2rem auto;
+    padding: 0px 2rem;
+}
+
+.header{
+    padding: 2REM;
+    margin: 1rem 0px;
+    text-align: center;
+}
+
+.header > .title{
+    margin-bottom: 1rem;
+    font-size: 3rem;
+    color: rgb(247, 250, 252);
+}
+
+.header > .Description{
+    font-size: 1.2rem;
+    color: rgb(212, 212, 208);
+}
+
+.tribute{
+    display: grid;
+    grid-template-columns: 2fr 1fr;
+    max-width: 70rem;
+    margin: 0px auto;
+    background: white;
+    color: black;
+    align-items: center;
+    padding: 0px 0px 0px 1rem;
+}
+
+.tribute blockquote{
+    text-align: center;
+    font-size: 2rem;
+    font-style: italic;
+    font-family: Georgia, 'Times New Roman', Times, serif;
+}
+
+.tribute img{
+    align-items: center;
+    max-width: 100%;
+}
+
+.bio{
+    margin: 2rem auto;
+    padding: 0px 0.5rem;
+    max-width: 70rem;
+    font-size: 1.5rem;
+    justify-content: right left;
+}
+
+.bio > h2{
+    margin-bottom: 1rem;
+    font-size: 3rem;
+    line-height: 1.2;
+    color: #99d3d6;
+}
+
+.bio > p{
+    font-size: 1.3rem;
+    line-height: 1.4;
+}
+
+.bio > hr{
+    margin-top: 2rem;
+}
+
+.birth{
+    margin: 2rem auto;
+    padding: 0px 0.5rem;
+    max-width: 70rem;
+    font-size: 1.5rem;
+    justify-content: center;
+}
+
+.birth > h2{
+    margin-bottom: 1rem;
+    font-size: 3rem;
+    line-height: 1.2; 
+    color: #99d3d6;
+}
+
+.birth > p{
+    font-size: 1.3rem;
+    line-height: 1.4;
+}
+
+.birth > hr{
+    margin-top: 2rem;
+}
+
+.education{
+    margin: 2rem auto;
+    padding: 0px 0.5rem;
+    max-width: 70rem;
+    font-size: 1.5rem;
+    justify-content: center;
+}
+
+.education > h2{
+    margin-bottom: 1rem;
+    font-size: 3rem;
+    line-height: 1.2;
+    color: #99d3d6;
+}
+
+.education > p{
+    font-size: 1.3rem;
+    line-height: 1.4;
+}
+
+.education > hr{
+    margin-top: 2rem;
+}
+
+.teachings{
+    margin: 2rem auto;
+    padding: 0px 0.5rem;
+    max-width: 70rem;
+    font-size: 1.5rem;
+    justify-content: center;
+}
+
+.teachings > h2{
+    margin-bottom: 1rem;
+    font-size: 3rem;
+    line-height: 1.2;
+    color: #99d3d6;
+}
+
+.teachings > p{
+    font-size: 1.3rem;
+    line-height: 1.4;
+}
+
+.teachings > hr{
+    margin-top: 2rem;
+}
+
+
+.rk{
+    margin: 2rem auto;
+    padding: 0px 0.5rem;
+    max-width: 70rem;
+    font-size: 1.5rem;
+    justify-content: center;
+}
+
+.rk > h2{
+    margin-bottom: 1rem;
+    font-size: 3rem;
+    line-height: 1.2;
+    color: #99d3d6;
+}
+
+.rk > p{
+    font-size: 1.3rem;
+    line-height: 1.4;
+}
+
+.rk > hr{
+    margin-top: 2rem;
+}
+
+
+.death{
+    margin: 2rem auto;
+    padding: 0px 0.5rem;
+    max-width: 70rem;
+    font-size: 1.5rem;
+    justify-content: center;
+}
+
+.death > h2{
+    margin-bottom: 1rem;
+    font-size: 3rem;
+    line-height: 1.2;
+    color: #99d3d6;
+}
+
+.death > p{
+    font-size: 1.3rem;
+    line-height: 1.4;
+}
+
+.death > hr{
+    margin-top: 2rem;
+}
+
+
+.copyright{
+    text-align: center;
+    margin: 1rem auto;
+    font-size: 1.2rem;
+    color: rgb(253, 249, 3);
+}
